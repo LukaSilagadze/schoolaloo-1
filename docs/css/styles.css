@@ -26,16 +26,27 @@ nav {
     width: 1000px;
     justify-content: space-around;
 }
+
 .header_a{
+    display: flex;
     font-family: "DejaVu Sans", sans-serif;
     font-size: 24px;
     color: white;
-    transition: 0.3s;
+    transition: all 0.3s ease;
 }
 .header_a:hover{
     color: #FFA500;
-    transform: scale(1.01);
+    transform: scale(1.15);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.active{
+    color: #FFA500;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.inactive{
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 24px;
+    color: white;
 }
 /* section */
 section{
@@ -104,6 +115,11 @@ button a:hover{
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+
+
+.just_section{
+    height: 600px;
+}
 /* footer */
 footer{
     display: flex;
