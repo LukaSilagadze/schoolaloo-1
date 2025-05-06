@@ -23,7 +23,7 @@ nav {
 }
 .nav_ul{
     display: flex;
-    width: 720px;
+    width: 1000px;
     justify-content: space-around;
 }
 .header_a{
