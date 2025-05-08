@@ -8,6 +8,9 @@
     display: flex;
     padding: 20px 70px;
     background-color:#b67fe3;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 .logo_link{
     height: 50px;
@@ -36,7 +39,7 @@ nav {
 }
 .header_a:hover{
     color: #FFA500;
-    transform: scale(1.15);
+    transform: translate(0, -5px);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 .active{
@@ -76,8 +79,9 @@ section{
     transition: 0.3s;
 }
 .article:hover{
-    transform: scale(1.02);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transform: translate(0, -20px);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.251)
 }
 .cards_text{
     display: flex;
@@ -104,14 +108,14 @@ button {
     background-color: #b67fe3;
     cursor: pointer;
 }
-button a {
+.button_a {
     font-family: "DejaVu Sans", sans-serif;
     color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 2px;
 }
-button a:hover{
+.button_a:hover{
     color: #FFA500;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
