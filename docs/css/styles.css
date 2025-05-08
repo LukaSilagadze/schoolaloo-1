@@ -10,6 +10,7 @@
     background-color:#b67fe3;
     position: sticky;
     top: 0px;
+    flex-wrap:wrap;
     z-index: 1;
 }
 .logo_link{
@@ -26,8 +27,8 @@ nav {
 }
 .nav_ul{
     display: flex;
-    width: 1000px;
-    justify-content: space-around;
+    column-gap: 35px;
+    flex-wrap: wrap;
 }
 
 .header_a{
