@@ -6,7 +6,7 @@
 /* header */
 .header_div{
     display: flex;
-    padding: 20px 70px;
+    padding: 20px;
     background-color:#b67fe3;
     position: sticky;
     top: 0px;
