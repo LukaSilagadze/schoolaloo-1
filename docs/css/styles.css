@@ -31,6 +31,28 @@ nav {
     flex-wrap: wrap;
 }
 
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    background-color: #b67fe3;
+    min-width: 160px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.dropdown_menu a {
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+    transition: all 0.3s ease;
+    padding: 6px 16px;
+    display: block;
+}
+.dropdown_menu a:hover{
+    color: #FFA500;
+}
+.nav_ul li:hover .dropdown_menu {
+  display: block;
+}
 .header_a{
     display: flex;
     font-family: "DejaVu Sans", sans-serif;
