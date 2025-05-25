@@ -7,6 +7,8 @@
 .header_div{
     display: flex;
     padding: 20px;
+    justify-content: space-between;
+    align-items: center;
     background-color:#b67fe3;
     position: sticky;
     top: 0px;
@@ -21,7 +23,6 @@
     height: 100%;
 }
 nav {
-    margin-left: auto;
     display: flex;
     align-items: end;
 }
@@ -73,6 +74,11 @@ nav {
     font-family: "DejaVu Sans", sans-serif;
     font-size: 24px;
     color: white;
+}
+.fa-bars{
+    color: #FFFFFF;
+    font-size: 30px;
+    display: none;
 }
 /* section */
 section{
